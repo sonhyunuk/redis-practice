@@ -87,6 +87,7 @@ export const getBidHistory = async (itemId: string, offset = 0, count = 10): Pro
 };
 
 const serializeHistory = (amount: number, createdAt: number) => {
+	console.log()
 	return `${amount}:${createdAt}`;
 };
 
